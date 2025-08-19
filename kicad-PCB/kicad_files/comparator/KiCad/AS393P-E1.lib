@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AS393P-E1
+#/1472906/1594206/2.50/8/3/Integrated Circuit
+DEF AS393P-E1 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "AS393P-E1" 1250 200 50 H V L CNN
+F2 "DIP762W56P254L930H431Q8N" 1250 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AS393-A.pdf" 1250 0 50 H I L CNN
+F4 "Analog Comparators LP Low Offset Dual 2 to 36V 0.6mA 25nA" 1250 -100 50 H I L CNN "Description"
+F5 "4.31" 1250 -200 50 H I L CNN "Height"
+F6 "621-AS393P-E1" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AS393P-E1?qs=M%2FOdCRO8QQ0NHo5SsEQAwA%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AS393P-E1" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUTPUT1 1 0 0 200 R 50 50 0 0 P
+X INPUT1- 2 0 -100 200 R 50 50 0 0 P
+X INPUT1+ 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1400 0 200 L 50 50 0 0 P
+X OUTPUT2 7 1400 -100 200 L 50 50 0 0 P
+X INPUT2- 6 1400 -200 200 L 50 50 0 0 P
+X INPUT2+ 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
