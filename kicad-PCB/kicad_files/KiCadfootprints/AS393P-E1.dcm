@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS393P-E1
+D Analog Comparators LP Low Offset Dual 2 to 36V 0.6mA 25nA
+K
+F https://www.diodes.com/assets/Datasheets/AS393-A.pdf
+$ENDCMP
+#
+#End Doc Library
